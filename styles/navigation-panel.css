@@ -1,0 +1,34 @@
+.navigation__panel__wrapper {
+  background-color: var(--background-dark-color);
+  color: var(--font-light-color);
+}
+.logo__banner {
+}
+.logo {
+}
+.logo__title {
+}
+
+.navigation__bar {
+  padding: 1rem;
+}
+.navigation__item {
+  letter-spacing: 1px;
+  display: flex;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  font-weight: var(--font-medium-weight);
+  border-radius: var(--border-radius-light);
+}
+.navigation__item.active {
+  background-color: var(--teal);
+}
+.navigation__item__icon__wrapper {
+}
+.navigation__item__icon__wrapper > i {
+  height: 1rem;
+  width: auto;
+}
+.navigation__item__content {
+  margin-left: 0.5rem;
+}
