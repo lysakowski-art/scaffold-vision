@@ -1,501 +1,97 @@
-.main__content__wrapper{}
+.main__content__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 20rem;
+}
 /* card styles */
-.card__panel{}
-.card__content__item{}
-.card__content__item > h4{}
-.card__content__item > h5{}
-.card__icon__container{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card__panel {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.card__content__item {
+  height: 15rem;
+  width: 15rem;
+  margin: 0.5rem;
+  background-color: var(--background-light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3px;
+  z-index: 3;
+  box-shadow: rgb(0 0 0 / 12%) 0px 0.2rem 0.8rem, rgb(0 0 0 / 6%) 0px 0.1rem;
+}
+.card__content__item:first-child {
+  margin-left: 0;
+}
+.card__content__item:last-child {
+  margin-right: 0;
+}
+
+.card__content__item > h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card__content__item > h5 {
+    font-size: 1.8rem;
+    font-weight: var(--font-bold-weight);
+}
+
+.card__icon__container {
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-grey-color);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card__icon__container > i {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: var(--teal);
+}
+
+/* regions */
+
+.regions__panel {
+  width: 100%;
+}
+
+.regions__panel__headline {
+  font-size: 1.8rem;
+  font-weight: var(--font-bold-weight);
+  color: var(--font-dark-color);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.badge__wrapper {
+  display: flex;
+}
+
+.badge__item {
+  display: flex;
+  padding: 1rem 1.5rem;
+  color: var(--font-dark-color);
+  font-size: 1.1rem;
+  border-radius: var(--border-radius-light);
+}
+
+.badge__item.active {
+  color: var(--font-light-color);
+  background-color: var(--buttons-badges);
+}
+.badge__item__icon {
+  margin-right: 0.5rem;
+}
+
+.badge__item__content {
+}

@@ -1,7 +1,64 @@
-.control__panel__wrapper{}
-.control__panel__section__title{}
-.control__panel__container{}
-.control__panel__item{}
-.control__panel__icon__wrapper{}
-.control__panel__select{}
+.control__panel__wrapper{
+    background-color: var(--background-grey-color);
+    padding: 0 50px;        
+}
+
+.control__panel__inner__wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+.control__panel__section__title{
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: var(--font-bold-weight);
+    color: var(--font-dark-color);
+}
+
+.control__panel__container{
+    display: flex;
+}
+
+.control__panel__item{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-light-color);
+    padding: 0 0.8rem;
+    border-radius: var(--border-radius-light);
+}
+
+.control__panel__item:last-child{
+    margin-right: 0;
+}
+.control__panel__item.avatar{
+    cursor:pointer;
+}
+
+.control__panel__icon__wprapper{
+    padding:0.8rem;
+}
+
+.control__panel__icon__wprapper > i {
+    font-size: 1.2rem;
+    color: var(--font-medium-dark-color);
+}
+
+.control__panel__select{
+    color: var(--font-medium-dark-color);
+    padding: 1rem 1rem 1rem 0;    
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
 .control__panel__select > option {}
+
+.control__panel__avatar{
+    padding: 0 0.5rem;
+}

@@ -1,22 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   /* colors */
   --teal: #008a9c;
   --buttons-badges: #5a8dee;
+  --border-color: #dddddd;
+  
   /* backgrounds */
   --background-dark-color: #333;
   --background-grey-color: #ededed;
   --background-light-color: #ffffff;
-  --background-icon-wrapper: #cce8eb;
+  --background-icon-wrapper-color: #cce8eb;
+
   /* fonts */
   --font-light-color: #fff;
   --font-medium-dark-color: #474747;
   --font-dark-color: #000000;
+
   /* font-weights */
-  --font-light-weight: 200;
-  --font-medium-weight: 300;
+  --font-light-weight: 100;
+  --font-medium-weight: 400;
   --font-bold-weight: 500;
+
   /* dimensions */
   --main-font-size: 10px;
 

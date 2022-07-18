@@ -10,7 +10,9 @@ html {
 
 .container {
   height: 100%;
+  background-color: var(--background-grey-color);
   justify-content: space-between;
   display: flex;
+  flex:1;
   flex-direction: column;
 }
