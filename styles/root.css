@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   /* colors */
   --teal: #008a9c;
   --buttons-badges: #5a8dee;
   --border-color: #dddddd;
-  
+
   /* backgrounds */
   --background-dark-color: #333;
   --background-grey-color: #ededed;
@@ -14,7 +14,7 @@
   /* fonts */
   --font-light-color: #fff;
   --font-medium-dark-color: #474747;
-  --font-dark-color: #000000;
+  --font-dark-color: #3d3d3d;
 
   /* font-weights */
   --font-light-weight: 100;
@@ -26,4 +26,8 @@
 
   /* radius */
   --border-radius-light: 3px;
+
+  /* box-shadow */
+  --standard-box-shadow: rgb(0 0 0 / 12%) 0px 0.2rem 0.8rem,
+    rgb(0 0 0 / 6%) 0px 0.1rem;
 }
