@@ -232,3 +232,11 @@
     flex: 0 0 100%;
   }
 }
+@media (max-width: 502px) {
+  .card__panel {
+    justify-content: center;
+  }
+  .card__content__item {
+    width: 100%;
+  }
+}

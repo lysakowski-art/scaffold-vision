@@ -12,20 +12,19 @@
   height: 4.5rem;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../assets/images/exit_grayscale.png');
+  background-image: url("../assets/images/exit_grayscale.png");
 }
 .logo__title {
   font-size: 1.6rem;
   letter-spacing: 2px;
   font-weight: var(--font-light-weight);
-
 }
 
 .navigation__bar {
   padding: 1rem;
 }
 .navigation__item {
-  cursor:pointer;
+  cursor: pointer;
   letter-spacing: 1px;
   display: flex;
   padding: 1.2rem 1.8rem;
@@ -37,7 +36,6 @@
 }
 .navigation__item:hover {
   background-color: var(--teal);
-
 }
 
 .navigation__item.active {
@@ -55,7 +53,41 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  transition: 0.3s ease;
 }
 .navigation__item__content > i {
   font-size: 0.9rem;
+}
+
+@media (max-width: 790px) {
+  .logo__banner {
+    flex-direction: column;
+  }
+  .logo {
+    width: 6rem;
+    height: 2.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/exit_grayscale.png");
+  }
+  .logo__title {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: var(--font-light-weight);
+  }
+  .navigation__panel__wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  .navigation__item__content {
+    visibility: hidden;
+    display: none;
+
+  }
+  .navigation__item {
+    min-width: 0rem;
+    justify-content: center;
+  }
+
 }

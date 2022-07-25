@@ -5,14 +5,18 @@ html {
 .wrapper {
   display: flex;
   width: 100vw;
-  -min-height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
-  height: 100%;
   background-color: var(--background-grey-color);
   justify-content: space-between;
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+@media (max-width: 790px) {
+  .container {
+    margin-left: 8.2rem;
+  }
 }
